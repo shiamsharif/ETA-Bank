@@ -32,7 +32,8 @@ module.exports = {
       center: true,
       padding: {
         default: '20px',
-        md: "50px"
+        md: "50px",
+        sm: "50px"
       }
     }
   },

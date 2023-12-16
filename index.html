@@ -12,7 +12,7 @@
 
 <body class="bg-color-primary text-white tracking-wide">
     <!-- Header Section Start -->
-    <header>
+    <header class="sticky top-0 z-50">
         <nav class="container flex justify-between items-center">
             <!-- Logo -->
             <div class="w-20 py-5 text-color-secondary font-bold text-3xl">
@@ -716,7 +716,79 @@
     </main>
     <!-- Main Section Ends -->
 
+    <!-- Footer section Start -->
+    <footer id="footer">
+        <div class="bg-color-primary-dark relative">
+            <div class="container py-10">
+                <div class="grid gap-10 md:grid-cols-3 pb-10">
+                    <div class="space-y-6">
+                        <h4 class="font-bold text-xl">About App</h4>
+                        <p class="capitalize leading-relaxed">
+                            This should Be Used To tall a story and include any testimonials
+                            you might have about product or service for your clients
+                        </p>
+
+                        <div class="flex items-center gap-5">
+                            <p>Follow Us</p>
+                            <i class="fa-brands fa-facebook-f cursor-pointer hover:text-color-secondary"></i>
+                            <i class="fa-brands fa-twitter cursor-pointer hover:text-color-secondary"></i>
+                            <i class="fa-brands fa-youtube cursor-pointer hover:text-color-secondary"></i>
+                            <i class="fa-brands fa-instagram cursor-pointer hover:text-color-secondary"></i>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between md:justify-around">
+                        <div class="space-y-6">
+                            <h4 class="font-bold text-lg">Quick Link</h4>
+                            <ul class="space-y-3">
+                                <li class="underline hover:no-underline hover:text-color-secondary"><a href="#">Home</a></li>
+                                <li class="underline hover:no-underline hover:text-color-secondary"><a href="#">Features</a></li>
+                                <li class="underline hover:no-underline hover:text-color-secondary"><a href="#">Testimonial</a></li>
+                                <li class="underline hover:no-underline hover:text-color-secondary"><a href="#">Pricing</a></li>
+                                <li class="underline hover:no-underline hover:text-color-secondary"><a href="#">Blog</a></li>
+                                <li class="underline hover:no-underline hover:text-color-secondary"><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+    
+                        <div class="space-y-6">
+                            <h4 class="font-bold text-lg">Help</h4>
+                            <ul class="space-y-3">
+                                <li class="underline hover:no-underline hover:text-color-secondary"><a href="#">About Us</a></li>
+                                <li class="underline hover:no-underline hover:text-color-secondary"><a href="#">Partners</a></li>
+                                <li class="underline hover:no-underline hover:text-color-secondary"><a href="#">Career</a></li>
+                                <li class="underline hover:no-underline hover:text-color-secondary"><a href="#">Review</a></li>
+                                <li class="underline hover:no-underline hover:text-color-secondary"><a href="#">Terms $ Conditions</a></li>
+                                <li class="underline hover:no-underline hover:text-color-secondary"><a href="#">Help</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="space-y-6">
+                        <h4 class="font-bold text-xl">Newsletter</h4>
+                        <p class="capitalize leading-relaxed">
+                            Subscribe with email and loads of news will be send to you
+                        </p>
+                        <div class="flex items-center ">
+                            <input type="text" class="w-3/4 text-color-gray bg-color-white p-2 lg:p-3rounded-l-md focus:outline-none"
+                            placeholder="Enter your email">
+                            <button type="submit" class="bg-color-secondary px-4  py-2 lg:px-5 lg:py-3 rounded-r-md 
+                            hover:opacity-90 ">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-center pt-10 border-t border-color-gray">
+                    <p>2023 &copy; ShiamSharif.  All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
     <!-- js linksss-->
+    <script src="js/header.js"></script>
     <script src="js/nav.js"></script>
     <script src="js/testimonial.js"></script>
     <script src="js/card.js"></script>

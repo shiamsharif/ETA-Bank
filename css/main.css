@@ -549,8 +549,6 @@ video {
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
-    padding-right: 50px;
-    padding-left: 50px;
   }
 }
 
@@ -982,6 +980,11 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .pb-10 {
